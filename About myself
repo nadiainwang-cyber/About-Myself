@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+       <meta charset='UTF-8'>
+       <meta name='viewport' content="width=device-width", initial-scale=1.0'>
+    <title>Web page Assignment</title>
+</head>
+<body>
+    <center>
+        <hr width="100" size="5" color="ash">
+        <header>
+            <h1> HTML WEBPAGE ASSIGNMENT </h1>
+        </header>
+        <!--my personal info-->
+        <section>
+            <h2><U>Personal Information Section.</U></h2>
+            <!--my info-->
+            <p>NAME: My name is <strong>INWANG NADINE.</strong></p><br>
+            <p>HOBBY: My hobbies are <strong>READING, LEARNING NEW THINGS and LISTENING TO MUSIC </strong></p><br>
+            <p>FAVORITE: My favorite music is <strong>COUNTRY</strong></p><br>
+            </section>
+            <!--media section-->
+            <section>
+                <h1>MY FAVORITE VIDEO</h1>
+                <article>
+              <video width="350" height="250" controls>
+              <source src="v14044g50000d3dof6nog65u2uejdqr0.mp4" video type="video/mp4">
+              </video>
+
+                </article>
+                <p>A video of me enjoying the view</p>
+                <article>
+                    <h3><U>My Favorite Audio</U></h3>
+                    <audio controls>
+                   <source src="New Recording 21.m4a" type="audio/mpeg">
+               </audio>
+               <p> An affirmation audio from a conference I attended recently</p>
+                </article>
+            </section>
+            <!--why I am a web developer-->
+            <article>
+                <h2>WHY I AM A WEB DEVELOPER.</h2>
+                <p>
+                    I want to get myself better equpied with the digital world as the world is grudaully becoming digitized, I also desire to implement my skills as a web developer in my field of study as the years come by
+               </p>
+            </article>
+            <!--image with figure and figcap-->
+            <section>
+                <h2>
+                    My Image
+                </h2>
+                <figure>
+                    <img src="20241222_173835_IMG_2944.jpeg" alt="image of myself" height="250" width="300">
+                    <figcaption>
+                        <mark>
+                            A random picture of myself.
+                        </mark>
+                    </figcaption>
+                </figure>
+            </section>
+            <!--map usimg iframe-->
+            <aside>
+                <h2>
+                    Google Map Of My Location.
+                </h2>
+                <iframe width="200" height="250" src="https://maps.app.goo.gl/5SBm1wNU1GMF7V8NA?g_st=ipc" width="600" height="450" style="border:0;" allowfullscreen></iframe>
+            </aside>
+            <!--my detail section-->
+            <details>
+                <summary>
+                    Click here for more information.
+                </summary>
+                <p>
+                    My name is NADINE INWANG. I am a productive and relaint person and always try my best to deliver work on time. I would describe my self as honest,hardworking and a daring individual.
+                </p>
+            </details>
+
+            </center>
+            <!--contact info-->
+            <form>
+                <h2> Contact Form</h2>
+                <label for="NAME">NAME:</label>
+                <input type="text" id="text" name="text" placeholder="name" required><br><br>
+                <label for="email">EMAIL</label>
+                <input type="text" id="text" name="text" placeholder="cat09@gmail.com" required><br><br>
+                <label for="phone"> PHONE NUMBER</label>
+                <input type="tel" id="phone" name="phone" placeholder="+2348000000000" required><br><br>
+                <label>GENDER</label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female"
+                <label for="female">Female</label><br>
+                <input type="radio" id="other" name="gender" value="other" 
+                <label for="other">Other</label><br><br>
+                <label for="country">COUNTRY</label><br>
+                <select id="country" name="country">
+                    <option value="Nigeria">Nigeria</option>
+                    <option value="USA">USA</option>
+                    <option value="China">China</option>
+                    <option value="India">India</option>
+                    <option value="Afghanistan">Afghanistan</option>
+                    </select><br>
+                    <label for="note">note:</label>
+                    <textarea id="note" name="note" rows="4" placeholder="write your name here..."></textarea><br><br>
+                    <button type="submit">submit</button>
+             </form>
+            </section>
+             </main>
+             <footer>
+                &copy; INWANG NADINE. genesys upskill.
+             </footer>
+
+            </body>
+            </html>
